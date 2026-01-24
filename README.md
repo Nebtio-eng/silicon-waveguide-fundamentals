@@ -76,6 +76,18 @@ around 450–500 nm for single-mode operation at telecom wavelengths.
 
 ---
 
+### 4. Waveguide Dispersion Dataset
+
+Automated parameter sweeps were performed over waveguide width to generate
+structured dispersion data. For each geometry, multiple eigenmodes were solved
+and the effective index, mode order, and guided/cutoff behavior were recorded.
+
+Results are saved as CSV files to enable:
+- Reproducible design analysis
+- Statistical post-processing
+- Machine-learning–based photonic optimization in later stages
+
+
 ## Key Takeaways
 
 - Modal behavior in SOI waveguides is governed by geometry and index contrast
